@@ -351,6 +351,7 @@ function Adexchangebuyer(options) {
     insert: function(params, callback) {
       var parameters = {
         options: {
+          body: params,
           url: 'https://www.googleapis.com/adexchangebuyer/v1.3/creatives',
           method: 'POST'
         },
